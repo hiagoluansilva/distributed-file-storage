@@ -1,0 +1,8 @@
+cd storage-node
+javac -d out src/StorageNode.java
+java -cp out StorageNode 1 5001
+
+
+cd client
+javac -d out src/Client.java
+java -cp out Client

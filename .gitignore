@@ -40,3 +40,14 @@ bin/
 # OS files
 .DS_Store
 Thumbs.db
+
+# dados de runtime dos nós
+storage-node/data/
+
+# downloads do client
+client/downloads/
+
+# diretórios de build
+client/out/
+storage-node/out/
+common/out/
